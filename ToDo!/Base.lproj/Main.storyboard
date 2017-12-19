@@ -32,7 +32,13 @@
                             <outlet property="delegate" destination="Dvd-kE-7mD" id="WSo-xa-P0n"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="To Do!" id="Ilx-ac-kyw"/>
+                    <navigationItem key="navigationItem" title="To Do!" id="Ilx-ac-kyw">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="cMM-Ff-2hg">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="Dvd-kE-7mD" id="tjW-Kd-xwG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="giq-h8-swa" id="xZ7-qz-vv1"/>
                     </connections>
